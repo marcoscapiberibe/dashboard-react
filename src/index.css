@@ -28,6 +28,10 @@ body {
   border-radius: 10px;
 }
 
+.barras-titulo {
+  margin-left: 30px;
+}
+
 .barrasimples-item {
   color: #5D405C;
 }
@@ -47,4 +51,8 @@ body {
   background: #FFFFFF;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+}
+
+.scatter-titulo {
+  margin-left: 30px;
 }

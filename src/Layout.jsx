@@ -4,7 +4,7 @@ import './index.css'
 import Home from './pages/Home'
 import ApexChartBarrasSimples from './pages/ApexCharts/ApexChartBarrasSimples'
 import ApexChartScatter from './pages/ApexCharts/ApexChartScatter'
-import Simbolo from './images/simbolo.png'
+
 
 
 
@@ -14,17 +14,15 @@ const Body = (props) => {
       <Header />
       <Home />
       <section className='charts'>
-        
+
         <div className='barrasimples'>
-          <p>Barras</p>
-          <img src={Simbolo} className='icone-simbolo'/>
+          <p className="barras-titulo">Barras</p>
           <ApexChartBarrasSimples className='barrasimples-item' />
-          </div>
-        
+        </div>
+
         <div class='scatter'>
-          <p>Scatter</p>
-          <img src={Simbolo} className='icone-simbolo'/>
-        <ApexChartScatter />
+          <p className='scatter-titulo'>Scatter</p>
+          <ApexChartScatter />
         </div>
       </section>
     </>
