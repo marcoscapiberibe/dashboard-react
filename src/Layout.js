@@ -6,7 +6,9 @@ import Home from "./pages/Home";
 const Body = (props) => {
     return (
         <>
+        <Header />
         <Home />
+        <section></section>
         </>
     )
 }

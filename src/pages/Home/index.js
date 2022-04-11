@@ -1,18 +1,23 @@
-import React from 'react';
+import React from "react";
+import "./Home.css"
+
+
+
 
 
 const Home = () => {
     return (
         <>
-            <section>
-                <div>
-                    <h1>Dashboard</h1>
-                    <p>Desafio Técnico Frontend</p>
+            <section className="conteudo">
+                <div className="conteudo-principal">
+                    <h1 className="titulo">Dashboard</h1>
+                    <p className="subtitulo">Desafio Técnico Frontend</p>
+                </div>
+                <div className="filtro">
+                    <img className='icone-filtro' />
+                    <p className="filtro-item">Filtrar</p>
                 </div>
             </section>
-            <div>
-                <p>Filtrar</p>
-            </div>
         </>
     )
 }
