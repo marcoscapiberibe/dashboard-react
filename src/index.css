@@ -23,9 +23,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   width: 630px;
-  height: 360px;
-  left: 28px;
-  top: 228px;
+  height: 100%;
   background: #FFFFFF;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -37,6 +35,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   margin-left: 30px;
+  font-weight: bold;
 }
 
 .barrasimples-item {
@@ -51,16 +50,10 @@ body {
   font-size: 16px;
   line-height: 20px;
   width: 630px;
-  height: 360px;
-  left: 736px;
-  top: 228px;
+  height: 100%;
   background: #FFFFFF;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-}
-
-.scatter-titulo {
-  margin-left: 30px;
 }
 
 .img-title {
