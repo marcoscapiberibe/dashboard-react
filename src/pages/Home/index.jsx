@@ -2,10 +2,6 @@ import React from "react";
 import "./Home.css";
 import Filtro from "./filtro.svg";
 
-
-
-
-
 const Home = () => {
     return (
         <>
@@ -15,8 +11,8 @@ const Home = () => {
                     <p className="subtitulo">Desafio Técnico Frontend</p>
                 </div>
                 <div className="filtro">
-                    <img src={Filtro} />
-                    <p className="filtro-item">Filtrar</p>
+                    <img src={Filtro} alt="icone de filtro" />
+                    <p>Filtrar</p>
                 </div>
             </section>
         </>
