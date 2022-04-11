@@ -26,13 +26,16 @@ body {
   height: 360px;
   left: 28px;
   top: 228px;
-
   background: #FFFFFF;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
-.barras-titulo {
+.grafico-titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
   margin-left: 30px;
 }
 
@@ -51,7 +54,6 @@ body {
   height: 360px;
   left: 736px;
   top: 228px;
-
   background: #FFFFFF;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -59,4 +61,12 @@ body {
 
 .scatter-titulo {
   margin-left: 30px;
+}
+
+.img-title {
+  background-image: url('./images/simbolo.png');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
 }

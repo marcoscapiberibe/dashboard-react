@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from "./components/Header";
 import './index.css'
 import Home from './pages/Home'
@@ -16,17 +15,23 @@ const Body = (props) => {
       <section className='charts'>
 
         <div className='barrasimples'>
-          <p className="barras-titulo">Barras</p>
+          <div className="grafico-titulo">
+            <p>Barras</p>
+            <div className='img-title'></div>
+          </div>
           <ApexChartBarrasSimples className='barrasimples-item' />
         </div>
 
         <div class='scatter'>
-          <p className='scatter-titulo'>Scatter</p>
+          <div className='grafico-titulo'>
+            <p>Scatter</p>
+            <div className='img-title'></div>
+          </div>
           <ApexChartScatter />
         </div>
       </section>
     </>
   )
-}
+} 
 
 export default Body;
