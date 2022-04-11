@@ -2,3 +2,48 @@ body {
   background-color: #F7F7F7;
   margin: 0;
 }
+
+
+.charts {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.barrasimples {
+  color: #5D405C;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  width: 630px;
+  height: 360px;
+  left: 28px;
+  top: 228px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.barrasimples-item {
+  color: #5D405C;
+}
+
+.scatter {
+  color: #5D405C;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  width: 630px;
+  height: 360px;
+  left: 736px;
+  top: 228px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
